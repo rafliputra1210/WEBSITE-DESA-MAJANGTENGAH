@@ -21,6 +21,11 @@ class PageController extends Controller
         return view('berita');
     }
 
+    public function beritaDetail($slug = null)
+    {
+        return view('berita-detail');
+    }
+
     public function galeri()
     {
         return view('galeri');
